@@ -1,6 +1,4 @@
 # SedUp
-A Matlab script for determining body posture (sedentary vs. standing) using wrist-worn accelerometers
-
 Process a raw accelerometry signal collected using wrist-worn wearable 
 device into sedentary and standing indicator.
 
@@ -16,21 +14,3 @@ algorithm for detecting body posture using wrist-worn accelerometer,
 Journal for the Measurement of Physical Behaviour, 2020.
 
 ***When used in research study, please cite the provided reference.***
-
-Inputs:
-x ~       one dimensional vector of raw acceleration signal collected 
-          at the axis parallel to forearm (assuring that x ~= 1 when 
-          device is facing the ground), provided in gravitational units
-          (g's)
-fs ~      sampling frequency of data collection (in Hz, e.g. 100)
-option ~  select optimal window size (1: window of 60s, 2: window of 90s)
-
-Output:
-standing ~ binary indicator of sitting/lying (0) and standing (1) body 
-          postures
-
-Script author:
-Marcin Straczkiewicz, PhD
-mstraczkiewicz@hsph.harvard.edu; mstraczkiewicz@gmail.com
-
-Last modification: 7/20/2020
